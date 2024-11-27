@@ -1,0 +1,50 @@
+.sub{
+    background-color:RED ;
+    color:white;
+    border:none;
+  padding: 15px  15PX 10PX 10PX;
+    cursor: pointer;
+    margin: 15px 15px;
+    border-radius: 10px;
+    transition: 1.15s;
+    box-shadow: -5px 7px 7px black;
+}
+.sub:hover{
+  background-color:red;
+  color:blue;
+}
+.sub:active{
+  opacity: 0.5
+}
+.join{
+    background-color:none ;
+    color:blue;
+     border: 2px solid black;
+  padding: 15px  15PX 10PX 10PX;
+    cursor: pointer;
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+.tweet{
+    background-color:rgb(65, 93, 219) ;
+    color:white;
+    border:none;
+  padding: 20px  20PX 10PX 10PX;
+    cursor: pointer;
+    margin: 20px 20px;
+    border-radius: 17px;
+    .men{
+       text-align: center;
+       font-style: italic;
+    }
+    h1 {
+      text-align: center;
+      color: white;           /* Text color */
+      background-color: brown; /* Background color for the rectangle */
+      border: 2px solid brown; /* Border color and thickness */
+      padding: 10px;           /* Space inside the border */
+      display: inline-block;   /* Makes the border wrap just around the text */
+      border-radius: 5px;      /* Rounds the corners of the rectangle */
+      text-decoration: underline;
+  }
+  
